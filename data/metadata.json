@@ -1,0 +1,59 @@
+{
+    "kaggle": {
+        "name": "playground-series-s4e4",
+        "year": "2024",
+        "type": "playground"
+    },
+    "data_description": {
+        "target_cols": [
+            "Rings"
+        ],
+        "feature_types": {
+            "id": "num",
+            "_Sex_1": "cat",
+            "_Length_2": "num",
+            "_Diameter_3": "num",
+            "_Height_4": "num",
+            "_Whole_weight_5": "num",
+            "_Whole_weight_1_6": "num",
+            "_Whole_weight_2_7": "num",
+            "_Shell_weight_8": "num"
+        },
+        "feature_types_to_cast": null,
+        "feature_values": {
+            "_Sex_1": [
+                "F",
+                "I",
+                "M"
+            ]
+        },
+        "missing_data_count": {
+            "id": 0,
+            "_Sex_1": 0,
+            "_Length_2": 0,
+            "_Diameter_3": 0,
+            "_Height_4": 0,
+            "_Whole_weight_5": 0,
+            "_Whole_weight_1_6": 0,
+            "_Whole_weight_2_7": 0,
+            "_Shell_weight_8": 0
+        },
+        "unique_value_count": {
+            "id": 90615,
+            "_Sex_1": 3,
+            "_Length_2": 157,
+            "_Diameter_3": 126,
+            "_Height_4": 90,
+            "_Whole_weight_5": 3175,
+            "_Whole_weight_1_6": 1799,
+            "_Whole_weight_2_7": 979,
+            "_Shell_weight_8": 1129
+        }
+    },
+    "id_col": "id",
+    "score_name": "rmsle",
+    "title": "Kaggle abalone",
+    "prediction_type": "regression",
+    "n_train": 90615,
+    "n_test": 60411
+}
